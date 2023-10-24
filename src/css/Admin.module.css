@@ -1,0 +1,67 @@
+.admin_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product_list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .product_image {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .product_details {
+    flex: 1;
+  }
+  
+  .product_buttons button {
+    margin-left: 10px;
+  }
+  
+  .input_field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .create_button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create_button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit_button, .delete_button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .edit_button:hover, .delete_button:hover {
+    background-color: #d32f2f;
+  }

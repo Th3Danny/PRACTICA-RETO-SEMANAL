@@ -1,0 +1,14 @@
+.contenedor{
+   display: flex; 
+   gap: 85%;
+   width: 100%;
+}
+.shop{
+    margin-left:2% ;
+}
+.carrito{
+    background-color: green;
+    border-radius: 15px;
+}
+
+
